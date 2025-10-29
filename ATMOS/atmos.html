@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>☀ A T M O S - MX ☀</title>
+<link rel="stylesheet" href="css/styleatmos.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1 style="text-align:center;">☀ A T M O S - MX ☀</h1>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="weather-app">
+            <h1>Clima MX ⛅</h1>
+            <div class="search-box">
+                <input type="text" id="city-input" placeholder="Ingresa una ciudad de México (ej: Monterrey)">
+                <button id="search-button">Buscar</button>
+            </div>
+
+            <div id="weather-data" style="display: none;">
+                <div id="current-weather" class="current-weather"></div>
+                <div id="forecast" class="forecast">
+                    <h2>Pronóstico para los próximos días</h2>
+                </div>
+            </div>
+
+            <p id="error-message" class="error-message"></p>
+        </div>
+    </main>
+
+    <!--Footer de la página-->
+    <footer class="footer">
+        <p>&copy; 2025 A T M O S - MX. Todos los derechos reservados.</p>
+    </footer>
+    <script src="js/atmos.js"></script>
+</body>
+</html>
